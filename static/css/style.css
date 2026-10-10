@@ -1,0 +1,64 @@
+/*Page-wide styles*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #1a3c6e;
+    text-align: center;
+}
+
+/*All paragraphs*/
+p {
+    color: #333333;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+/*All level two headers*/
+h2 {
+    color: #1a3c6e;
+    border-bottom: 2px solid #1a3c6e;
+    padding-bottom: 5px;
+}
+
+/*Tables: border with a border color*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #1a3c6e;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #dce6f5;
+}
+
+/*ID selector for the extra paragraph*/
+p#final-note {
+    font-style: italic;
+    color: #8a1c1c;
+}
+
+/*Class rule block*/
+.highlight {
+    background-color: #fff3cd;
+    padding: 10px;
+}
+
+/*Named "logo" block, img tags only*/
+img.logo {
+    width: 200px;
+    height: 100px;
+}
