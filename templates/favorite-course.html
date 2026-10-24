@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}Favorite Course{% endblock %}
+
+{% block content %}
+<h1 class="mb-4">Favorite Course</h1>
+
+{% if subject and course_number %}
+    <div class="alert alert-success" role="alert">
+        You entered your favorite course as: {{ subject }} {{ course_number }}
+    </div>
+{% else %}
+    <div class="alert alert-warning" role="alert">
+        No course was entered. Add <code>?subject=BMGT&amp;course_number=407</code> to the URL.
+    </div>
+{% endif %}
+{% endblock %}
